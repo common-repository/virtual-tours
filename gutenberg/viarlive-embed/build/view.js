@@ -1,0 +1,1 @@
+window.addEventListener("load",(e=>{document.querySelectorAll(".viarlive-tour-block").forEach((e=>{let t=document.createElement("iframe");t.src=e.dataset.url,t.width=e.dataset.width>0?e.dataset.width:"",t.height=e.dataset.height>0?e.dataset.height:"",t.allowFullscreen=!0,t.style.border="none",t.style.background="transparent",e.replaceChildren(t)}))}));
